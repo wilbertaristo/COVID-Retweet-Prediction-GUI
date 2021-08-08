@@ -40,7 +40,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Dataset"
-              description="We used a subset of the TweetsCOV19 dataset to train our model due to insufficient processing power available. The sub-dataset contains more than 1 million COVID-19 related tweets in May 2020."
+              description="We used a subset of the TweetsCOV19 dataset to train our model due to insufficient processing power available. The sub-dataset contains almost 2 million COVID-19 related tweets in April & May 2020."
               icon={PhotoLibrary}
               iconColor="danger"
               vertical
@@ -49,8 +49,8 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Architecture"
-              description="We preprocessed the dataset and grouped them into numerical, embedded categorical, and embedded multi-categorical features."
-              description2="The features are then flattened and concatenated before they are passed into our model which employs 5 Fully Connected (FC) Layers, Batch Normalization, ReLU activation function, and Dropout as a regularizer"
+              description="We preprocessed the dataset into numerical, categorical, and multi-categorical features. We did clustering for some of these features and used one-hot embedding for the categorical features."
+              description2="The features are then passed into our model which employs 5 Fully Connected (FC) Layers, Batch Normalization, ReLU activation function, and Dropout as a regularizer"
               icon={Settings}
               iconColor="info"
               vertical
