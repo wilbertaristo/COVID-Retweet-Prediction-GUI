@@ -73,7 +73,7 @@ const initialState = {
   refreshing: false,
   tweetObjects: undefined,
 };
-const ROOT_URL = "https://covid-retweet-project-backend.herokuapp.com";
+const ROOT_URL = "http://127.0.0.1:5000";
 
 function reducer(state, action) {
   switch (action.type) {
