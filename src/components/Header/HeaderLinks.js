@@ -36,7 +36,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://github.com/wilbertaristo/COVID-Retweet-Prediction-GUI"
           color="transparent"
           target="_blank"
           className={classes.navLink}
