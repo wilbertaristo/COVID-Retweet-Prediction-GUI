@@ -13,3 +13,6 @@ To recreate this GUI locally in your machine, follow these steps:
 4. Run `yarn` if you are using yarn or `npm install` if you are using npm. Wait until all packages are installed.
 5. Make sure the local Flask server is already loaded up before proceeding to the next step. (complete ALL steps from [Backend section](https://github.com/wilbertaristo/COVID_Retweet_Prediction_Backend))
 6. Run `yarn dev` if you are using yarn or `npm run dev` if you are using npm. The GUI should load up in your default browser in a while.
+
+## Model used
+The model used along with its training files can be found here: https://github.com/jeroee/COVID_Retweet_Prediction_model 
