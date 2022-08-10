@@ -68,6 +68,8 @@ const inputAttributes = [
   { Timestamp: 'Format ( "EEE MMM dd HH:mm:ss Z yyyy" )' },
 ];
 
+// ADD LEGIT COMMENT
+
 const initialState = {
   fetched: false,
   refreshing: false,
