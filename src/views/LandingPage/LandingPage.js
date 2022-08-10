@@ -43,8 +43,6 @@ import {
   Line,
 } from "recharts";
 
-// TESTING DANICA 
-
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
